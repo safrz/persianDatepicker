@@ -58,7 +58,8 @@
                 onSelect: function () {
                 },
                 onRender: function () {
-                }
+                },
+				todaycaption: 'امروز'
             };
             var self = this;
             self.el = $(element);
@@ -440,7 +441,7 @@
                     _goToday.attr("data-gdate", self.jDateFunctions.getGDate(self.now()));
                     _goToday
                             .attr("href", "javascript:;")
-                            .html('هم اکنون');
+                            .html(n.options.todaycaption);
                     if (self.options.startDate == null)
                         _goToday.bind("click", function () {
                             self.persianDate = self.now();
