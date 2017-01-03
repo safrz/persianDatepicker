@@ -19,7 +19,6 @@ persianDatepicker is A lightweight jQuery plugin that select persian(jalali) dat
 ```html
 <link type="text/css" rel="stylesheet" href="css/persianDatepicker.css" />
 <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
-<script type="text/javascript" src="js/persianDatepicker.min.js"></script>
 ```
 
 2- add your html element (input or span or etc)
@@ -66,7 +65,8 @@ $("#input1").persianDatePicker({
         },
         onShow: function () { },
         onHide: function () { },
-        onSelect: function () { }
+        onSelect: function () { },
+        todaycaption: 'امروز'
 });
 ```
 
