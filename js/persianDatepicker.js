@@ -59,7 +59,7 @@
                 },
                 onRender: function () {
                 },
-				todaycaption: 'امروز'
+		todaycaption: 'امروز'
             };
             var self = this;
             self.el = $(element);
